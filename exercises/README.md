@@ -1,4 +1,12 @@
-# Udagram Image Filtering Microservice
+# Udagram Image Filtering Microservice Project
+
+#Github Link: https://github.com/FahimaGold/udacity-microservices-project/
+
+#Docker Images links:
+backend-user: https://hub.docker.com/repository/docker/fahima2019/udacity-user
+backend-feed: https://hub.docker.com/repository/docker/fahima2019/udacity-feed
+frontend: https://hub.docker.com/repository/docker/fahima2019/udacity-frontend
+reverse-proxy: https://hub.docker.com/repository/docker/fahima2019/reverseproxy
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
