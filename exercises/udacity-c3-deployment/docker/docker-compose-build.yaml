@@ -1,0 +1,18 @@
+version: "2.0"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: fahima2019/reverseproxy 
+  backend_user:
+    build:
+      context: ../../udacity-c3-restapi-user
+    image: fahima2019/udacity-user
+  backend_feed:
+    build:
+      context: ../../udacity-c3-restapi-feed  
+    image: fahima2019/udacity-feed
+  frontend:
+    build:
+      context: ../../udacity-c3-frontend  
+    image: fahima2019/udacity-frontend:latest
